@@ -20,6 +20,8 @@ And some applications are coming:
 - Natural Language
 - Rereinforcement Learning
 
+**Note** that these features are only validated on cpu.
+
 ## Model
 
 Application for model.

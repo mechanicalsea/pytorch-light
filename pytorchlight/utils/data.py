@@ -11,7 +11,7 @@ import numpy as np
 import torch
 from torch.utils.data import TensorDataset, DataLoader
 from torchvision import datasets, transforms
-from log import Log
+from .log import Log
 
 __all__ = ['data_logger', 'n2t', 't2n', 'n2tds',
            'tds2n', 'n2dl', 'dl2n']

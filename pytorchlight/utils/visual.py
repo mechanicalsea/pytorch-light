@@ -9,17 +9,13 @@ Features:
     3. one or multi images
 
 """
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-from __future__ import unicode_literals
 
 import os
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
 import torchvision
-from log import Log
+from .log import Log
 
 __all__ = ['visual_logger', 'imshow', 'batch_curves', 'learning_curves',
            'oneshow']

@@ -8,10 +8,15 @@ Features:
 
 """
 
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+from __future__ import unicode_literals
+
 import numpy as np
 from torch import nn
 import torch.nn.functional as F
-from log import Log
+from .log import Log
 
 __all__ = ['model_logger', 'Wrapper', 'Mnist_CNN', 'Mnist_Logistic',
            'batch_log', 'epoch_log',
