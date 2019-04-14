@@ -174,3 +174,4 @@ def dl2n(dl, indices=None):
     data_logger.info('n2dl({}, {})'.format(type(dl).__name__, indices))
     indices = [0] if indices is None else indices
     return [d[indices] for d in dl.dataset.tensors]
+

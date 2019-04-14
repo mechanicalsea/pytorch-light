@@ -229,3 +229,29 @@ def oneshow(image_names):
         image = np.array([plt.imread(img)
                           for img in image_names if os.path.exists(img)])
     imshow(image)
+
+
+def xy(x, y, x_label, y_label):
+    """X versus Y
+    
+    Plot (x, y) with given corresponding labels.
+    
+    Args:
+        x (ndarray): input x
+        y (ndarray): input y
+        x_label (str): x label
+        y_label (str): y label
+        title (str): title of x vs y (default: {None})
+
+    Example::
+
+        >>> xy([1, 2], [0.3, 0.5], 'Step', 'Accuracy')
+
+    """
+    plt.figure(figsize=(3,3))
+    plt.plot(x, y, '*-')
+    plt.title('{} vs {}'.format(y_label, x_label))
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.show()
+    

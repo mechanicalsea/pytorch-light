@@ -1,4 +1,4 @@
-"""Step-by-step upload to pypi.org
+"""Step-by-step upload to pypi.org: https://pypi.org/project/pytorchlight/
 
 Overview:
 
@@ -38,7 +38,7 @@ setup(name='pytorchlight',
       long_description=long_description,
       long_description_content_type="text/markdown",
       url='https://github.com/mechanicalsea/pytorch-light',
-      packages=find_packages(),
+      packages=find_packages(exclude=['test',]),
       license='BSD',
       install_requires=requirements,
       classifiers=[

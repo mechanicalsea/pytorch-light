@@ -1,5 +1,10 @@
 # Pytorch Light
+
 Pytorch Light is a Python package that provides several tools about modelling and applications.
+
+## Installation
+
+- Installing from pypi: `pip install pytorchlight`
 
 There are some features as follows:
 

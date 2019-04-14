@@ -3,3 +3,7 @@ test/
 log/
 *.log
 *.csv
+*.egg-info
+dist/
+build/
+Note.md
